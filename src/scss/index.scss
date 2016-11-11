@@ -1,0 +1,104 @@
+@import "variables";
+@import "reset";
+
+body{
+ padding:0;
+  margin:0;
+}
+.outer{
+  max-width:1440px;
+  width:100%;
+  margin:0 auto;
+}
+
+.wrapper{
+  max-width:1292px;
+  width:100%;
+  margin:0 auto;
+}
+.header{
+  height:83px;
+  opacity: 0.8;
+  background-color: $black-two;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  .back{
+    a{
+      width: 186px;
+      height: 21px;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.31;
+      text-decoration: none;
+      color: #ffffff;
+    }
+  }
+}
+.container{
+  max-width:100%;
+  background:$light-grey;
+}
+.clear{
+  clear:both;
+}
+.footer-wrapper{
+  background:$light-grey;
+  max-width:1440px;
+  width:100%;
+  padding:0;
+  margin:0 auto;
+
+  .footer{
+    max-width:1292px;
+    width:100%;
+    margin: 0 auto;
+    padding:54px;
+    position:relative;
+    height:129px;
+    font-size: 18px;
+    .toTop{
+      background: url('../images/nachoben.svg') no-repeat;
+      height:60px;
+      width:60px;
+      float:right;
+      margin:0;
+    }
+    .logo{
+      background: url('../images/logo.svg') no-repeat;
+      width:110px;
+      height:38px;
+      background-size: cover;
+    }
+    .footerNav{
+      margin:33px 0;
+      padding:0;
+      li{
+        list-style: none;
+        float: left;
+        margin-right:20px;
+        a{
+          text-decoration: none;
+          font-size: 18px;
+        }
+      }
+    }
+    .copyright{
+      float:left;
+    }
+
+    .socialButtons{
+      float:right;
+      li{
+        float:left;
+        list-style:none;
+        margin-right:20px;
+        a{
+          text-decoration: none;
+        }
+
+      }
+    }
+  }
+  
+}
